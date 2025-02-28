@@ -1,0 +1,107 @@
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+myvenv/
+
+# Django-related
+*.log
+db.sqlite3
+*.py[cod]
+__pycache__/
+media/
+staticfiles/
+
+# Environment variables
+.env
+*.env.*
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+local_settings.py
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+celerybeat-schedule
+celerybeat.pid
+
+# Pyenv
+.python-version
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy/
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# mkdocs
+/site/
+
+# mypy
+.mypy_cache/
+
+#migrations
+migrations/
+
+!.env.example
